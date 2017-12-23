@@ -17,6 +17,9 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+
   </head>
 
   <body id="page-top">
@@ -44,23 +47,25 @@
       </div>
     </nav>
 
+    <!--Header Line-->
     <header class=" text-white" >
       <div id="bg-img">
         <img src="img/header.jpg" height=100% width=100% >
       </div>
       <div class="container text-center" id="content">
-        <h1>Board Game & Me</h1>
-        <p class="lead">Board game is going to conquer the world!</p>
+        <h1 class="shadow">Board Game & Me</h1>
+        <p class="lead-1">Board game is going to conquer the world!</p>
       </div>
     </header>
 
+    <!--About me Section-->
     <section id="about">
       <div class="container">
-        <div class="row">
+        <div class="row" id="bg-about">
           <div class="col-lg-8 mx-auto">
             <h2>About me</h2>
             <p class="lead">This is Zoey, and I LOVE board games. Be it strategy games or other type of games, they are all fun to me. Surely enough, I'd like to introduce some games here.</p>
-            <ul>
+            <ul id="game-list">
               <li><b>Great Western Trail:</b> &nbsp;America in the 19th century: You are a rancher and repeatedly herd your cattle from Texas to Kansas City, where you send them off by train.</li>
               <li><b>Get Off My Land:</b> &nbsp;Get Off My Land! is a game of rival farmers competing for limited space and resources.</li>
               <li><b>Istanbul:</b> &nbsp;In Istanbul, you lead a group of one merchant and four assistants through 16 locations in the bazaar.</li>
@@ -70,14 +75,31 @@
       </div>
     </section>
 
-    <section id="services" class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Services we offer</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-          </div>
-        </div>
+    <!--Game List-->
+    <section class="bg-light cards">
+      <div id="left-card">
+        <a href="https://boardgamegeek.com/boardgame/193738/great-western-trail" target="_blank";>
+          <h3>Great Western Trail</h3>
+          <img src="img/gwt.jpg" class="left-img" alt="Great Western Trail" align="middle">
+        </a>
+        <blockquote>
+          Great Western Trail is a great strategic game with a really cool take on the American West. I haven’t seen a ton of other games follow suit and over inundate the market with games about the west
+          <p> &#151; by Psyched Games</p>    
+        </blockquote>
+      </div>
+      <div id="middle-card">
+        <a href="https://boardgamegeek.com/boardgame/148949/istanbul" target="_blank";>
+          <h3>Istanbul</h3>
+          <img src="img/istanbul.jpg" alt="Istanbul" class="middle-img">
+        </a>
+        <blockquote style="text-align:center">placeholder</blockquote>
+      </div>
+      <div id="right-card">
+        <a href="https://boardgamegeek.com/boardgame/193248/get-my-land" target="_blank">
+          <h3>Get Off My Land</h3>
+          <img src="img/goml.jpg" alt="Get Off My Land" class="right-img">
+        </a>
+        <blockquote>placeholder</blockquote>
       </div>
     </section>
 
